@@ -10,3 +10,10 @@ __pycache__/
 **/build
 **/node_modules
 #__pycache__/
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+models/

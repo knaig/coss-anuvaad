@@ -1,0 +1,16 @@
+**/node_modules
+**/__pycache__
+**/*.log
+**.cache
+**/models
+**/venv
+**/*.whl
+**/data_samples
+**/*.pyc
+**/__pycache__
+**/.git
+**/logs
+**/tests
+**/test
+**/docs
+**/github 
