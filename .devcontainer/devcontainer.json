@@ -1,0 +1,26 @@
+{
+    "name": "Anuvaad Development",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "features": {
+      "docker-in-docker": {
+        "version": "latest",
+        "moby": true
+      },
+      "ghcr.io/devcontainers/features/rust:1": {},
+      "ghcr.io/devcontainers/features/python:1": {
+        "version": "3.8"
+      }
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-azuretools.vscode-docker",
+          "ms-python.python"
+        ]
+      }
+    },
+    "forwardPorts": [5000, 8000, 3000, 9092, 9200],
+    "postCreateCommand": "pip install -r anuvaad-etl/anuvaad-extractor/aligner/etl-aligner/requirements.txt"
+  }
