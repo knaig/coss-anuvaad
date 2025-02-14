@@ -1,6 +1,5 @@
 FROM anuvaadio/nmt:4
 #FROM nvidia/cuda:10.2-base
-CMD nvidia-smi
 RUN apt-get update
 #RUN apt-get -y install python3
 #RUN apt-get -y install python3-pip
